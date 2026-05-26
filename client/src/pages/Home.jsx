@@ -587,7 +587,7 @@ function Home() {
                 </motion.p>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 16 }}
+                    initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 0.4 }}
                     className='mt-12 flex flex-col sm:flex-row items-center justify-center gap-4'
